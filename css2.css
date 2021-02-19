@@ -1,0 +1,52 @@
+#f {
+    border: 2px solid black;
+    padding-left: 100px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: rgb(223, 250, 215);
+    border-width: 5px;
+    width: 800px;
+    margin-left: 400px;
+    box-shadow: 5px 10px 18px cyan;
+    border-radius: 20px;
+    
+
+}
+#b {
+    background-image: url("im.jpg");
+
+}
+label.lab {
+    color: brown;
+        font-size: 20px;
+        text-shadow: cadetblue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+       
+       
+
+}
+#btn {
+    margin-left: 300px;
+     font-size: 20px;
+     font-weight: bold; 
+     background-color: yellowgreen;
+    color: floralwhite;
+    box-shadow: 2px 2px 100px rgb(40, 97, 57);
+    border-radius: 10px;
+}
+#h {
+    text-align: center;
+    color:peru;
+    font-weight: bold;
+}
+#h:hover {
+    color:red;
+    text-decoration: underline;
+}
+#btn:hover{
+    background-color: salmon;
+}
+#f:hover{
+    background-image: linear-gradient(pink,cyan, yellow);
+}

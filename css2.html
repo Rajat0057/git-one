@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css2.css"> 
+    <title> registration form</title>
+    
+</head>
+<body id="b">
+    <h2 id="h">REGISTRATION FROM</h2>
+    <form id="f">
+        <label class="lab"> Firstname<sup style="color: red;">*</sup> </label>         
+         <input type="text" name="firstname" size="15" placeholder="enter first name"> 
+
+        
+         <label class="lab"> Lastname <sup style="color: red;">*</sup></label>         
+         <input type="text" name="lastname" size="15" placeholder="enter last name"> <br><br>
+         <label class="lab">Email<sup style="color: red;">*</sup></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="email" name="email" size="15" placeholder="enter the email" style="text-indent: 10px;"><br><br>
+         <label class="lab">Contect no<sup style="color: red;">*</sup></label>
+         <input type="text" name="countect no"  value="+91" size="2"/>  
+          
+         <input type="number" name="number" size="10" placeholder="enter the contect"><br><br>
+         <label class="lab">Other Contect no</label>
+         <input type="text" name="countect no"  value="+91" size="2"/>  
+          
+         <input type="number" name="number" size="10" placeholder="enter the contect"><br><br>
+         <label class="lab">Password<sup style="color: red;">*</sup></label>&nbsp;&nbsp;
+         <input type="password" name="password" size="15" placeholder="enter the password"><br><br>
+
+         <label class="lab">Confirm Password<sup style="color: red;">*</sup></label>&nbsp;&nbsp;
+         <input type="password" name="password" size="15" placeholder="enter the password"><br><br>
+         
+         <label class="lab">DOB</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="date" name="dob" placeholder="select the date"><br><br>
+         <label class="lab">Gender<sup style="color: red;">*</sup><label><br>
+            <input type="radio"  name="gender" value="male">
+            <label for="male" class="lab">Male</label><br> 
+            <input type="radio"  name="gender" value="female">
+            <label for="female" class="lab">Female</label><br> <br>
+        
+            
+            <label class="lab"> Parmanat Address<sup style="color: red;">*</sup></label> <br><br>
+            <label class="lab">City<sup style="color: red;">*</sup></label>&nbsp;&nbsp;
+               
+            <input type="text" name="city" placeholder="enter the city" size="15">
+            <label for="state">State<sup style="color: red;" >*</sup></label>&nbsp;&nbsp;
+               
+            <select name="state">
+                <option value="up">uttar pradesh</option>
+                <option value="mp">madyapradesh</option>
+                <option value="hr">Haryana</option>
+                <option value="pub">panjub</option>
+                <option value="goa">Goa</option>
+                <option value="uk">Uttarakahnd</option>
+                <option value="hi">Himachal</option>
+                
+            </select>
+           
+            <label>Country<sup style="color: red;">*</sup></label>&nbsp;&nbsp;
+            <select name="Country">
+                <option value="initial-scale">India</option>
+                <option value="aus">AUSTRALIA</option>
+                <option value="nor">NORWAY</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="nz">NEW ZEALAND</option>
+                <option value="rus">RUSSIA</option>
+                
+            </select><br><br>
+           
+            
+               
+           
+            
+            <label> Current Address</label> <br><br>
+            <label>City</label>&nbsp;&nbsp;
+               
+            <input type="text" name="city" placeholder="enter the city" size="15">
+            <label for="state">state</label>&nbsp;&nbsp;
+               
+            <select name="state">
+                <option value="up">uttar pradesh</option>
+                <option value="mp">madyapradesh</option>
+                <option value="hr">Haryana</option>
+                <option value="pub">panjub</option>
+                <option value="goa">Goa</option>
+                <option value="uk">Uttarakahnd</option>
+                <option value="hi">Himachal</option>
+                
+            </select>
+           
+            <label>Country</label>&nbsp;&nbsp;
+            <select name="Country">
+                <option value="initial-scale">India</option>
+                <option value="aus">AUSTRALIA</option>
+                <option value="nor">NORWAY</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="nz">NEW ZEALAND</option>
+                <option value="rus">RUSSIA</option>
+                
+            </select><br><br>
+            
+            
+            <label for="channel">Subscribe news letter</label>
+
+            <select name="channel" style="border-radius: 2px;">
+            <option value="yes" >Yes</option>
+            <option value="no">No</option>
+            
+            </select><br><br>
+            <input type="button" value="Submit"  id ="btn" >
+
+
+    </form>
+</body>
+</html>
